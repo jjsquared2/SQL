@@ -1,0 +1,18 @@
+CREATE TABLE games (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, rating integer, cost integer);
+Insert into games VALUES (1, "Pokemon Red", 5, 4.5, 29.95);
+insert into games VALUES (2, "Zelda", 8, 3.7, 35.00);
+insert into games VALUES (3, "Crash Bandicoot", 7, 5.0, 29.00);
+insert into games VALUES (4, "Animal Crossing", 12, 5.0, 30.99);
+insert into games VALUES (5, "Pokemon Blue", 10, 4.7, 29.95);
+insert into games VALUES (6, "Naruto", 14, 3.0, 40.00);
+insert into games VALUES (7, "Dragon Ball Z", 12, 4.0, 20.00);
+insert into games VALUES (8, "Undertale", 16, 3.0, 10.00);
+insert into games VALUES (9, "Sims 4", 20, 2.0, 30.00);
+insert into games VALUES (10, "Stardew Valley", 25, 3.5, 15.00);
+insert into games VALUES (11, "Digimon", 7, 3.0, 20.00);
+insert into games VALUES (12, "sliter.io", 8, 3.2, 0.00); 
+insert into games VAlUES (13, "DDR",6, 2.7, 50.00);
+insert into games VALUES (14, "racing cars", 8, 1.9, 5.00);
+insert into games VALUES (15, "cooking mama", 10,3.7,20.00);
+SELECT * from games where rating > 3.5;
+SELECT SUM(cost) from games;
